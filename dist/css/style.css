@@ -1,0 +1,51 @@
+.parent {
+  background-color: rgb(232, 197, 255);
+}
+
+* {
+  background: rgb(179, 178, 255);
+  color: rgb(124, 13, 13);
+}
+@media (max-width: 180px) {
+  * {
+    background-color: aqua;
+  }
+}
+
+p {
+  width: 200px;
+}
+
+.parent {
+  color: black;
+  width: 400px;
+}
+.parent .child {
+  color: rgb(87, 87, 87);
+}
+.parent .child:hover {
+  color: rgb(255, 86, 86);
+}
+.parent .parent-child {
+  color: blue;
+}
+.parent:hover {
+  color: white;
+}
+
+.box, .box2 {
+  background-color: orange;
+  width: 6.25%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+ul li {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
